@@ -1,0 +1,95 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.wrapper {
+	max-width: 1060px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+}
+
+figure {
+	margin: 0;
+}
+
+.image-map_image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.explain_image-map,
+.explain_terms {
+	position: relative;
+}
+
+@media only all and (min-width: 37.5em) {
+  	.explain_image-map,
+  	.explain_terms {
+		display: inline-block;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		border: solid transparent;
+		border-width: 0 15px;
+		vertical-align: top;
+	}
+	.explain_image-map {
+		width: 66%;
+	}
+	.explain_terms {
+		width: 33%;
+	}
+}
+
+.image-map_wrapper {
+	position: relative;
+}		
+.image-map_image {
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid black;
+}
+
+.image-map_overlay {
+    position: absolute;
+    
+}
+
+.u-visually-hidden {
+	    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.image-map_overlay__checklist {
+	    background: rgba(255,147,27,0.2);
+
+}
+.form-explainer_page-buttons button {
+    position: absolute;
+    top: 45%;
+    
+    
+    &.prev {
+      left: -16px;
+    }
+    
+    &.next {
+      right: -16px;
+    }
+  }
+
+
+
+
+
